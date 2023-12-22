@@ -22,7 +22,7 @@
     "build": "next build",
     "lint": "next lint",
     "format": "npx prettier --write src/",
-    "push": "pnpm build &&  git push "
+    "db_push": "prisma db push"
   },
   "dependencies": {
     "@radix-ui/react-popover": "^1.0.7",
@@ -55,10 +55,12 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@prisma/client": "^5.7.1",
     "@types/node": "20.3.3",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
     "@types/react-syntax-highlighter": "^15.5.7",
-    "prettier-plugin-tailwind-css": "^1.5.0"
+    "prettier-plugin-tailwind-css": "^1.5.0",
+    "prisma": "^5.7.1"
   }
 }

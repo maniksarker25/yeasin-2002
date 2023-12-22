@@ -7,7 +7,7 @@ import { navItems } from "./Nav";
 
 interface MobileNavProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {}
 export const MobileNav: FC<MobileNavProps> = ({ ...rest }) => {
-  return (
+  return (  
     <div {...rest}>
         <Popover>
           <PopoverTrigger className="cursor-pointer text-lg font-semibold   p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-all">
