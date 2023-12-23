@@ -4,12 +4,6 @@ import Image from "next/image";
 import ContactVia from "../ConnectVia";
 
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import { Autoplay } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
 //? my Images
 import me9 from "@/assets/avatar/me/KIY.jpeg";
 import me1 from "@/assets/avatar/me/clg.jpg";

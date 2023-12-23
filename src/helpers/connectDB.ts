@@ -1,5 +1,5 @@
-import prisma from "@/prisma";
 import chalk from "chalk";
+import prisma from "../../prisma";
 
 export const connectDB = async () => {
   try {
