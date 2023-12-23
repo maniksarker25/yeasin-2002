@@ -23,12 +23,62 @@ model Blog {
 }
 
 model User {
-  id       String   @id @default(auto()) @map("_id") @db.ObjectId 
+  id       String   @id @default(auto()) @map("_id") @db.ObjectId
   name     String
   email    String   @unique
   password String
   role     String   @default("user")
   createAt DateTime @default(now())
   location String?
+  isAdmin  Boolean  @default(false)
   blogs    Blog[]
+}
+
+model Projects {
+  id           String @id @default(auto()) @map("_id") @db.ObjectId
+  index        Int
+  name         String
+  ProjectImage String
+  liveLink     String
+  gitHubLink   String
+  tag          String
+  description  String
+}
+
+model Language {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  name  String
+  image String
+  level String
+}
+
+model FrontEnd {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  name  String
+  image String
+  level String
+}
+
+model BackEnd {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  name  String
+  image String
+  level String
+}
+
+model Tools {
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  name  String
+  image String
+  level String
+}
+
+model Contact {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  name      String
+  email     String
+  contactNumber     String
+  subject   String
+  message   String
+  createAt  DateTime @default(now())
 }

@@ -9,8 +9,10 @@ import { useId, useState } from "react";
 
 const AllProjects = () => {
   const [searchValue, setSearchValue] = useState("");
-  const filteredProjects = projectData.filter((project) =>
-    project.name.toLowerCase().includes(searchValue.toLowerCase())
+
+  const filteredProjects = projectData.filter((project) => {
+     return  project?.name?.toLowerCase().includes(searchValue.toLowerCase())
+    }
   ) as typeof projectData;
 
   return (

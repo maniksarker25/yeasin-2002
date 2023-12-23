@@ -2,7 +2,7 @@ import styles from "./DownloadBtn.module.css";
 
 const DownloadBtn = ({ children, ...rest }: OnlyChild) => {
   return (
-    <>
+    <a  href={"/LWS-Certificate.pdf"} download={"LWS-Certificate"} target="_blank"     rel="noopener noreferrer" >
       <button type="button" className={styles.button} {...rest}>
         <span className={styles.button__text}>{children}</span>
         <span className={styles.button__icon}>
@@ -17,9 +17,9 @@ const DownloadBtn = ({ children, ...rest }: OnlyChild) => {
             <path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path>
             <path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path>
           </svg>
-        </span>
+        </span> 
       </button>
-    </>
+    </a>
   );
 };
 

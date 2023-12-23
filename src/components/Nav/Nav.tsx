@@ -12,7 +12,7 @@ import { MobileNav } from "./MobileNav";
 export const navItems = [
   {
     title: "Home",
-    url: "/",
+    url: "",
     Icon: home,
   },
   {

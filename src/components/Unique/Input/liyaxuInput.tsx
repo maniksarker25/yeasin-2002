@@ -1,12 +1,15 @@
-import { Dispatch, SetStateAction } from "react";
+"use client"
+
+import { DetailedHTMLProps, Dispatch, InputHTMLAttributes, SetStateAction } from "react";
 import styles from "./liyaxuInput.module.css";
 
-type TextArr = {
+interface  TextArr  extends DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
+{
   searchValue: string;
   setSearchValue: Dispatch<SetStateAction<string>>;
 };
 
-const LiyaxuInput = ({ searchValue, setSearchValue }: TextArr) => {
+const LiyaxuInput = ({ searchValue, setSearchValue, ...rest }: TextArr) => {
   const textArr = [
     {
       text: "S",
@@ -36,7 +39,9 @@ const LiyaxuInput = ({ searchValue, setSearchValue }: TextArr) => {
   return (
     <div>
       <div className={styles.formControl}>
-        <input type="value" required={true} value={searchValue} onChange={(e) => setSearchValue(e.target.value)} />
+        <input type="value" required value={searchValue} onChange={(e) =>  setSearchValue(e?.currentTarget?.value)} 
+        {...rest}
+        />
         <label>
           {textArr.map((val) => {
             const delays = `${val.delay}ms`;

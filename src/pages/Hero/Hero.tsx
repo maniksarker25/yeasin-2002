@@ -38,7 +38,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="lg:max-w-lg md:w-1/2 lg:w-full 2xl:h-1/2 2xl:ml-20 relative">
-            <Image
+            <Image  
               src={man}
               alt="man"
               priority={true}

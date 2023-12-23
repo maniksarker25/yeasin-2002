@@ -6,6 +6,7 @@ import chainVers from "@/assets/projects/chiptoChainvers.png";
 import insurgency from "@/assets/projects/insurgency.png";
 import kismatTravel from "@/assets/projects/kismat-travel.png";
 import kiyMovie from "@/assets/projects/kiyMovie.png";
+import storyCraft from "@/assets/projects/storyCraft.png";
 import TaskHub from "@/assets/projects/taskHub.png";
 import twindCli from "@/assets/projects/twindCli.png";
 
@@ -20,13 +21,15 @@ export type projectTypes = {
 
 const projectData: projectTypes[] = [
   {
-    name: "Kismat Travels",
-    ProjectImage: kismatTravel,
-    gitHubLink: "https://github.com/yeasin-2002/Kismat_Travels-OTA/tree/main",
-    liveLink: "",
-    tag: ["nextjs 12", "@tanstack/react-query", "zustand", "Tailwindcss", "shdcnui", "radix-ui"],
-    description: "An OTA (Online Travel Agency) website. This website is for booking flights from Bangladesh  ",
+    name: "Amader bazar",
+    ProjectImage: amader_bazar,
+    liveLink: "https://amaderbazar.netlify.app/",
+    gitHubLink: "https://github.com/yeasin-2002/Amazer_Bazar-client",
+    tag: ["React", "Tailwindcss", "tanstack-query", "node/express", "mongoDB"],
+    description:
+      "A full stack e-commerce website\n , The project is an online store that sells a variety of products and allows customers to browse, purchase, and track their orders. This repository contains only the code for the dashboard, which provides an interface for store administrators to manage products, view sales data, and track orders",
   },
+ 
   {
     name: "TaskHub",
     ProjectImage: TaskHub,
@@ -37,13 +40,21 @@ const projectData: projectTypes[] = [
       "A task management application with the ability to collaborate with others Todo-App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do, with the most important tasks at the top of the list, and the least important tasks at the bottom. It is helpful in planning our daily schedules",
   },
   {
-    name: "Amader bazar",
-    ProjectImage: amader_bazar,
-    liveLink: "https://amaderbazar.netlify.app/",
-    gitHubLink: "https://github.com/yeasin-2002/Amazer_Bazar-client",
-    tag: ["React", "Tailwindcss", "tanstack-query", "node/express", "mongoDB"],
-    description:
-      "A full stack e-commerce website\n , The project is an online store that sells a variety of products and allows customers to browse, purchase, and track their orders. This repository contains only the code for the dashboard, which provides an interface for store administrators to manage products, view sales data, and track orders",
+    name: "Kismat Travels",
+    ProjectImage: kismatTravel,
+    gitHubLink: "https://github.com/yeasin-2002/Kismat_Travels-OTA/tree/main",
+    liveLink: "",
+    tag: ["nextjs 12", "@tanstack/react-query", "zustand", "Tailwindcss", "shdcnui", "radix-ui"],
+    description: "An OTA (Online Travel Agency) website. This website is for booking flights from Bangladesh  ",
+  },
+ 
+  {
+    name: "Story Craft - insurance agency",
+    ProjectImage: storyCraft,
+    liveLink: "",
+    gitHubLink: "https://github.com/yeasin-2002/StoryCraft",
+    tag: ["nextjs 14", "Tailwindcss", "prisma", "notions Editor"],
+    description: `Story Craft is a blog website. You can write your own blog and publish it. You can also read other's blog.`,
   },
   {
     name: "Insurantly - insurance agency",

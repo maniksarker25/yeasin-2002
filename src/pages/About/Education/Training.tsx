@@ -1,28 +1,14 @@
-import Image from "next/image";
 import DownloadBtn from "@/components/Unique/Buttons/DownloadBtn/DownloadBtn";
+import Image from "next/image";
 
 //  Assets
 import lws from "@/assets/avatar/Academy/lws.svg";
-import { AveriaLibreFont, Maiden_OrangeFont } from "@/utils/GoogleFonts";
 import Revel from "@/components/Globals/Revel";
+import { AveriaLibreFont, Maiden_OrangeFont } from "@/utils/GoogleFonts";
 // import myPdf from "../../../assets/doc/reduxCertificate.pdf";
 
 const Training = () => {
-  const downloadPdf = () => {
-    const pdf = ""; // myPdf import url
-    fetch(pdf)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "my-pdf.pdf";
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-      });
-  };
+
 
   return (
     <Revel
@@ -46,7 +32,7 @@ const Training = () => {
             href="https://learnwithsumit.com/"
             target="_blank"
             rel="noreferrer"
-            className={`text-xs sm:text-base text-gray-400 xl:text-lg font-medium  sm:font-semibold ${Maiden_OrangeFont.className}`}
+            className={`text-xs sm:text-base text-gray-400 xl:text-lg font-medium  sm:font-semibold ${Maiden_OrangeFont.className} hover:underline transition-all`}
           >
             Learn with Sumit
           </a>
