@@ -1,5 +1,8 @@
-import { successResponse } from "@/helpers";
+import { NextResponse } from "next/server";
+
 
 export const GET = () => {
-  return successResponse("yeasin2002");
+  return NextResponse.json({ message: "Yeasin2002" }, {
+    status: 202
+  });
 };
