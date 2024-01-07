@@ -16,15 +16,18 @@
 - 🏫 We have a great community called [wd hive](https://github.com/wdhive) , Also have [Messenger](https://l.messenger.com/l.php?u=https%3A%2F%2Fm.me%2Fj%2FAbYRqd07CPovLcls%2F&h=AT3omrCWUUMjE7qdoriL7gyIBQllWEPuFFSKeL1j7ywpWMAZX-x6rCaRmzsT9zjRihEcl2wwa549Z0gS-t3smUB1DQ9H3kjRPA1LWiBqtkedfdFnxaoMeTLho7TMLNiF95L5GA) group where greeks help each other since last two year.
 
 #### Specialized In [ Front End ]
- ![Specialized In](https://skillicons.dev/icons?i=ts,next,tailwind,redux,zustand)
-
+ <!-- ![Specialized In](https://skillicons.dev/icons?i=ts,next,tailwind,redux,zustand) -->
+<img src="https://skillicons.dev/icons?i=ts,next,tailwind,redux" />
+<img src="./public/icons/zustand.svg" width="50" />
+<img src="./public/icons/react-query.svg" width="50" />
 
 #### Familiar with [ Back End ]
 ![Back End](https://skillicons.dev/icons?i=nodejs,express,mongodb,prisma,)
 
 
 #### Tools
-![Tools](https://skillicons.dev/icons?i=vscode,figma,vite,postman)
+![Tools](https://skillicons.dev/icons?i=vscode,figma,vite)
+<img src="./public/icons/notions.svg" width="50" />
 
 
 
