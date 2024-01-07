@@ -4,7 +4,7 @@ export const AboutString = `
      return {
        Name: "Md Kawsar Islam Yeasin",
        Role: "Front End Web Developer",
-       Age: 20,
+       Age: 21,
        Gender: "male",
        Address: "Dhaka, Cantonment,Dhaka-1206",
        Phone: "01632227965",

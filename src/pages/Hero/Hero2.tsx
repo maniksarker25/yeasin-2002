@@ -1,10 +1,10 @@
 import Link from "next/link";
 import React from "react";
-import TypeEffect from "./TypeEffect";
 
-import { cn } from "$lib/utils";
+
 import BlueStar_Btn from "@/components/Unique/Buttons/BlueStar/BlueStar_Btn";
 import Space_Btn from "@/components/Unique/Buttons/Space_Btn/Space_Btn";
+import { cn } from "@/lib/utils";
 import { SubtitleFont, TitleFont } from "@/utils/GoogleFonts";
 
 const Hero2 = () => {
@@ -34,9 +34,3 @@ const Hero2 = () => {
   );
 };
 export default Hero2;
-
-
-
-
-                {/* // title-font  w-full first-letter block  mb-8 font-extrabold  sm:text-5xl  md:text-3xl   text-2xl  xl:text-6xl 2xl:text-8xl
-                // z-10 animate-title whitespace-nowrap bg-foreground bg-clip-text p-2 font-display text-6xl text-transparent duration-1000 [pointer-events:all] md:text-9xl */}

@@ -28,7 +28,7 @@ const Imageka = () => {
       <div className="flex items-center justify-center flex-1 w-full h-full">
         <div className=" rounded-lg  aspect-auto flex-1   mx-4 sm:mx-7 md:mx-4 w-full  overflow-hidden flex flex-col items-center ">
           <Image
-            className="size-1/2"
+            className="md:size-1/2 size-full"
             src={profilePic}
             alt="Yeasin"
             loading="lazy"

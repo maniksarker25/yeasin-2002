@@ -25,8 +25,7 @@
     "db_push": "prisma db push"
   },
   "dependencies": {
-    "@mantine/code-highlight": "^7.4.0",
-    "@mantine/core": "^7.4.0",
+
     "@radix-ui/react-popover": "^1.0.7",
     "@radix-ui/react-slot": "^1.0.2",
     "@studio-freight/lenis": "^1.0.26",

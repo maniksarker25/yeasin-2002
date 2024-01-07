@@ -1,7 +1,7 @@
+import Revel from "@/components/Globals/Revel";
+import { MeriendaFont, RozhaFont } from "@/utils/GoogleFonts";
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import { MeriendaFont, RozhaFont } from "@/utils/GoogleFonts";
-import Revel from "@/components/Globals/Revel";
 
 export interface Academy extends React.HtmlHTMLAttributes<HTMLDivElement> {
   name: string;
