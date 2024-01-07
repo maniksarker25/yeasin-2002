@@ -24,8 +24,8 @@
 
 
 #### Tools
-![Tools](https://skillicons.dev/icons?i=vscode,figma,vite)
-<img src="./public/icons/notions.svg" width="50" />
+
+<img src="https://skillicons.dev/icons?i=vscode,figma,vite" /> <img src="./public/icons/notions.svg" width="50" />
 
 
 
@@ -68,7 +68,7 @@
 
 
  #### 🔥  OPEN SOURCE CONTRIBUTIONS
- -  Hungry Hero   [Live](https://hungry-hero-ag.netlify.app/), [GitHub Repo](), [PR](), [Issue]()  
+ -  Title   [Live](https://***/), [GitHub Repo](), [PR](), [Issue]()  
  -->
 
 

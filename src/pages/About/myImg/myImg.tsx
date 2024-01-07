@@ -15,7 +15,7 @@ import me6 from "@/assets/avatar/me/lastDayInClg.jpg";
 import me5 from "@/assets/avatar/me/musium.jpg";
 import me7 from "@/assets/avatar/me/sagufta.jpg";
 
-import profilePic from "@/assets/avatar/me/profile-pic.png";
+import profilePic from "@/assets/avatar/me/rounded.png";
 
 
 
@@ -26,9 +26,9 @@ const Imageka = () => {
   return (
     <div className="md:order-last  flex flex-col justify-between md:justify-start w-full h-full ">
       <div className="flex items-center justify-center flex-1 w-full h-full">
-        <div className=" rounded-lg  aspect-auto flex-1   mx-4 sm:mx-7 md:mx-4 w-full  overflow-hidden h-[30rem] ">
+        <div className=" rounded-lg  aspect-auto flex-1   mx-4 sm:mx-7 md:mx-4 w-full  overflow-hidden flex flex-col items-center ">
           <Image
-            className="w-full h-full    object-cover"
+            className="size-1/2"
             src={profilePic}
             alt="Yeasin"
             loading="lazy"

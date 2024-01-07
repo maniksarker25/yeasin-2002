@@ -3,10 +3,8 @@
 import React from "react";
 import Tilty from "react-tilty";
 
-import { AboutString } from "../../lib/AboutMeFuncString";
-
-//  syntax highlighter
 import { Highlight, themes } from "prism-react-renderer";
+import { AboutString } from "../../lib/AboutMeFuncString";
 
 // assets
 import bloods from "@/assets/bloobs/Rings.svg";
@@ -20,7 +18,7 @@ const AboutCode = () => {
         reverse={false}
         speed={100}
         maxGlare={1}
-        className=" sm:text-sm   xl:text-2xl  md:text-sm md:mx-0 md:px-0 sm:mx-24 mt-6 xl:mt-0 inline-block xl:mx-3  relative overflow-x-hidden text-xs rounded-lg md:h-full"
+        className=" sm:text-sm   xl:text-2xl  md:text-sm md:mx-0 md:p x-0 sm:mx-24 mt-6 xl:mt-0 inline-block xl:mx-3  relative overflow-x-hidden text-xs rounded-lg md:h-full"
         style={{
           background: `rgba(255,255,255,.01)`,
           boxShadow: "0 25px 45px rgba(0,0,0,.2)",
