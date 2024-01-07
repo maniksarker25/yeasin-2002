@@ -7,9 +7,9 @@ export interface Item {
   reference?: string;
 }
 export default interface skillDataTypes {
-  Language: Item[];
-  CssFramework: Item[];
-  JSFramework: Item[];
+  Language?: Item[];
+  CssFramework?: Item[];
+  FrontEnd: Item[];
   BackEnd: Item[];
   Tools: Item[];
 }

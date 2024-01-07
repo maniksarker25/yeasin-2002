@@ -1,104 +1,50 @@
 import skillDataTypes from "./skillData.d";
 
 //! front end
-import css from "@/assets/icons/css.svg";
-import html from "@/assets/icons/html.svg";
-import js from "@/assets/icons/js.svg";
 import next from "@/assets/icons/next2svg.svg";
 import react from "@/assets/icons/react.svg";
-import redux from "@/assets/icons/redux.svg";
-import rtk from "@/assets/icons/rtk.png";
-import styledComponents from "@/assets/icons/styled-components.jpg";
+import redux from "@/assets/icons/skill_icons/Redux.svg";
+import typeScript from "@/assets/icons/skill_icons/TypeScript.svg";
+import tanStackQuery from "@/assets/icons/skill_icons/react-query.svg";
+import zustand from "@/assets/icons/skill_icons/zustand.svg";
 import tailwind from "@/assets/icons/tailwind.svg";
-import tanStackQuery from "@/assets/icons/tankstackQuery.svg";
-import typeScript from "@/assets/icons/typescript.svg";
-import unoCSS from "@/assets/icons/unoCSS.svg";
-import zustand from "@/assets/icons/zustand.png";
 
 //! back ends
-import MongoDB from "@/assets/icons/Mongo.png";
-import node from "@/assets/icons/Nodejs.svg";
-import express from "@/assets/icons/express.svg";
-import mongoose from "@/assets/icons/mongoose.png";
-import MySql from "@/assets/icons/mySQL.svg";
-import sequelize from "@/assets/icons/sequelize.svg";
-import sql from "@/assets/icons/sql.svg";
+import express from "@/assets/icons/skill_icons/ExpressJS-Dark.svg";
+import MongoDB from "@/assets/icons/skill_icons/MongoDB.svg";
+import node from "@/assets/icons/skill_icons/NodeJS-Dark.svg";
 
 //! tools
-import figma from "@/assets/icons/figma.svg";
 import gitAndGithub from "@/assets/icons/gitAndGithubsvg.svg";
-import notion from "@/assets/icons/notion2svg.svg";
+import figma from "@/assets/icons/skill_icons/Figma-Dark.svg";
+import notion from "@/assets/icons/skill_icons/notions.svg";
+import vsCode from "@/assets/icons/skill_icons/vscode.svg";
 import vite from "@/assets/icons/vite.svg";
-import vsCode from "@/assets/icons/vsCode.svg";
 
 const skillData: skillDataTypes = {
-  Language: [
-    {
-      title: "HTML",
-      icon: html,
-      stage: "advance",
-    },
-    {
-      title: "CSS",
-      icon: css,
-      stage: "advance",
-    },
-
-    {
-      title: "JavaScript",
-      icon: js,
-      stage: "advance",
-    },
+  FrontEnd: [
     {
       title: "TypeScript",
       icon: typeScript,
-      stage: "intermediate",
-    },
-  ],
-  CssFramework: [
-    // {
-    //   title: "TailwindCSS",
-    //   icon: tailwind,
-    //   stage: "advance",
-    //   reference: "https://tailwindcss.com/",
-    // },
-    // {
-    //   title: "Bootstrap",
-    //   icon: Bootstrap,
-    //   stage: "intermediate",
-    // },
-    // {
-    //   title: "SASS",
-    //   icon: SASS,
-    //   stage: "intermediate",
-    // },
-    // {
-    //   title: "PostCSS",
-    //   icon: postcss,
-    //   stage: "intermediate",
-    // },
-    // {
-    //   title: "Open-Props",
-    //   icon: openProps,
-    //   stage: "intermediate",
-    // },
-    // {
-    //   title: "Styled-Components",
-    //   icon: styledComponents,
-    //   stage: "intermediate",
-    // },
-  ],
-  JSFramework: [
-    {
-      title: "TailwindCSS",
-      icon: tailwind,
       stage: "advance",
     },
+
     {
       title: "React.js",
       icon: react,
       stage: "advance",
     },
+    {
+      title: "Next.js ",
+      icon: next,
+      stage: "advance",
+    },
+    {
+      title: "TailwindCSS",
+      icon: tailwind,
+      stage: "advance",
+    },
+
     {
       title: "Redux Toolkit",
       icon: redux,
@@ -113,19 +59,15 @@ const skillData: skillDataTypes = {
     {
       title: "TanStack Query",
       icon: tanStackQuery,
-      stage: "intermediate",
+      stage: "intermediate",  
     },
-    {
-      title: "Next.js ",
-      icon: next,
-      stage: "beginner",
-    },
+ 
   ],
   BackEnd: [
     {
       title: "Node.js",
       icon: node,
-      stage: "beginner",
+      stage: "intermediate",
     },
     {
       title: "Express.js",
@@ -143,7 +85,7 @@ const skillData: skillDataTypes = {
     {
       title: "Git & Github",
       icon: gitAndGithub,
-      stage: "advance",
+      stage: "intermediate",
     },
 
     {

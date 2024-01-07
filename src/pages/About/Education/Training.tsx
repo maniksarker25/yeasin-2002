@@ -3,8 +3,8 @@ import TrainingCard from "./TrainingCard";
 
 //  Assets
 import lws from "@/assets/avatar/Academy/lws.svg";
-import react from "@/assets/icons/3d/React-Dark.svg";
-import redux from "@/assets/icons/3d/Redux.svg";
+import react from "@/assets/icons/skill_icons/React-Dark.svg";
+import redux from "@/assets/icons/skill_icons/Redux.svg";
 
 
 
