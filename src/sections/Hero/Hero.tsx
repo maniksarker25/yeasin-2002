@@ -7,7 +7,7 @@ import Parallax from "./Parallax";
 import Title from "./Title";
 
 import man from "@/assets/avatar/Saly-13.svg";
-import { PragatiNarrowFont, SubtitleFont } from "@/utils/GoogleFonts";
+import { PragatiNarrowFont, salsa } from "@/utils/GoogleFonts";
 import Link from "next/link";
 import TypeEffect from "./TypeEffect";
 
@@ -21,7 +21,7 @@ const Hero = () => {
 
             <div className="flex flex-col items-start mb-8 space-y-2 text-center md:text-left">
               <p
-                className={`text-md    xl:text-x  l 2xl:text-3xl  leading-relaxed text-blue-100  sm:px-0 ${SubtitleFont.className}`}
+                className={`text-md    xl:text-x  l 2xl:text-3xl  leading-relaxed text-blue-100  sm:px-0 ${salsa.className}`}
               >
                 A self-taught web application developer, who loves to build things for the web.
               </p>

@@ -1,3 +1,4 @@
+import { OswaldFont } from "@/utils/GoogleFonts";
 import React from "react";
 import SkillCard from "./SkillCard";
 
@@ -18,7 +19,7 @@ const LoopOverSkill = ({ skillType, title }: Props) => {
   return (
     <>
       <div>
-        <h3 className="SubTitle md:text-xl text-lg"> {title}</h3>
+        <h3 className={"SubTitle md:text-xl text-lg"+ OswaldFont.className}> {title}</h3>
         <div className="gap-x-3 md:gap-x-4 xl:gap-x-6 2xl:gap-x-8 sm:grid-cols-2 gap-y-4 md:grid-cols-4 xl:grid-cols-4 grid grid-cols-1">
           {skillType?.map((val, index) => (
             <SkillCard

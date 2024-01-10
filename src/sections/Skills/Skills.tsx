@@ -1,6 +1,7 @@
 import { cn } from "$lib/utils";
 import { skillTypeHeading } from "@/data/SkillHeading";
 import skillData from "@/data/skillData";
+import { sriracha } from "@/utils/GoogleFonts";
 import React from "react";
 import LoopOverSkill from "./LoopOverSkill";
 
@@ -12,11 +13,16 @@ const Skills = () => {
       <div className="grid justify-end mt-5 md:mt-1">
         {
           skillTypeHeading.map((heading) => { 
-           return  <p className="flex items-center"
+           return  <p
+           
+           className={"flex items-center"}
             key={heading.title}
+
            >
             <span className={cn("inline-block w-4 h-4 mr-2  rounded-full ", heading.color)}/>
-            <span className="text-gray-300 font-medium">
+            <span 
+            className={"text-gray-300 font-medium"+ sriracha.className}
+            >
               {heading.title}
             </span>
           </p>

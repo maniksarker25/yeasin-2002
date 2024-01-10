@@ -1,5 +1,6 @@
 import {
   Averia_Libre,
+  Bebas_Neue,
   Bree_Serif,
   Calistoga,
   Chelsea_Market,
@@ -22,13 +23,15 @@ import {
   Mooli,
   Oswald,
   Pragati_Narrow,
+  Roboto_Slab,
   Rokkitt,
   Rozha_One,
+  Salsa,
   Sansita,
   Sedgwick_Ave,
   Shippori_Antique,
   Skranji,
-  Yatra_One,
+  Sriracha
 } from "next/font/google";
 
 export const TitleFont = Kurale({
@@ -152,3 +155,26 @@ export const OswaldFont = Oswald({
   weight: "400",
   subsets: ["latin"],
 });
+
+
+export const robotoSlab = Roboto_Slab({
+  weight: "700",
+  subsets: ["latin"],
+});
+
+export const bebasNeue = Bebas_Neue({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+export const salsa = Salsa({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+export const sriracha = Sriracha({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+

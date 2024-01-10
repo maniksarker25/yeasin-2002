@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { DetailedHTMLProps, FC, HTMLAttributes } from "react";
 
+import { cn } from "$lib/utils";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { robotoSlab } from "@/utils/GoogleFonts";
 import { RiMenu3Fill } from "react-icons/ri";
 import { navItems } from "./Nav";
+
+
 
 interface MobileNavProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {}
 export const MobileNav: FC<MobileNavProps> = ({ ...rest }) => {
@@ -21,7 +25,9 @@ export const MobileNav: FC<MobileNavProps> = ({ ...rest }) => {
                   className="border-b flex gap-x-1 items-center   border-transparent  hover:border-teal-700   text-gray-800 hover:text-gray-600 text-lg font-semibold  p-2 transition-all"
                   href={val.url}
                 >
-                  <p> {val.title}</p>
+                  <p
+                   className={cn("font-bold",   robotoSlab.className)}
+                  > {val.title}</p>
                 </Link>
               );
             })}
